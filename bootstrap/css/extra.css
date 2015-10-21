@@ -1,0 +1,82 @@
+/* 
+    Document   : extra
+    Created on : 03/09/2013, 19:00:18
+    Author     : Daniel Santos
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.box-icone-painel {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    border: solid 1px #e7e7e7;
+   
+    border-color: #e7e7e7;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.div-padding{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    alignment-baseline: central;
+}
+
+#alinhamenCentro {
+    margin-left:20%;
+    margin-top: 5%;
+}
+#bgGradienteverde{
+background: #d8eaaf; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4ZWFhZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #d8eaaf 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8eaaf), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d8eaaf 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d8eaaf 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d8eaaf 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d8eaaf 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8eaaf', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+
+
+padding-left: 10px;
+
+}
+
+.divcentro{
+    padding-left: 60px;
+}
+
+#bgGradienteCinza{
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #d1d1d1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d1d1d1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#d1d1d1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#d1d1d1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#d1d1d1 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#d1d1d1 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1d1d1',GradientType=0 ); /* IE6-9 */
+    
+    height: 100%;
+}
+
+.cores{
+    color: #d1d1d1;
+}
+.imgLado {
+    float: left;
+}
+#conteudoTable {
+    padding: 40px;
+}
